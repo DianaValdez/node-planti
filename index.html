@@ -1,0 +1,31 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en" ng-app='angularRoutingApp'>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
+
+</head>
+<body ng-controller='mainController'>
+  <header>
+    <h1>Angular Routing</h1>
+      <nav> 
+        <ul> 
+          <li><a href="pages/main.html">Inicio</a></li>
+          <li><a href="pages/acerca.html">Acerca de</a></li>
+          <li><a href="pages/contacto.html">Contacto</a></li>
+
+        </ul> 
+      </nav>
+    </header>
+    <div id="main">
+      <!-- Aquí inyectamos las vistas -->
+      <div ng-view>
+        
+      </div> 
+    </div>
+    <script src="//node_modules/angular/angular.min.js"></script> 
+    <script src="//node_modules/angular-route/angular-route.min.js"></script>
+  </body>
+  </html>

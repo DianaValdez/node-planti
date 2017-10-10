@@ -1,0 +1,27 @@
+{
+  "name": "node-planti",
+  "version": "3.5.2",
+  "description": "probando plantillas",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DianaValdez/"
+  },
+  "author": "Diana Valdez",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-route": "^1.6.6",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.1",
+    "mongoose": "^4.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
